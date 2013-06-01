@@ -73,7 +73,7 @@ public List<IQuote> getStocks(String symbol, Date begin, Date end){
 
     //@return string with exact symbol
 
-    private String toStringWithExactSymbol(String symbol){
+    public String toStringWithExactSymbol(String symbol){
 
         int quoteAmount=0;
 
